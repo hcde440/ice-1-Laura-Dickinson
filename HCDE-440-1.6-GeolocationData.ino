@@ -15,8 +15,8 @@
 #include <ESP8266WiFi.h>            //include the library for the device
 #include <ESP8266HTTPClient.h>      //include the library for the wifi connectivity component
 #include <ArduinoJson.h>                                         //provides the ability to parse and construct JSON objects
-const char* ssid = "fklaser";                                    //sets the wifi network you are connecting to
-const char* pass = "Buddy8290!";                                 //sets the password to connect to the wifi network
+const char* ssid = "NETWORK";                                    //sets the wifi network you are connecting to
+const char* pass = "PASSWORD";                                   //sets the password to connect to the wifi network
 const char* geoKey = "85d6995b16688f273c95691c4f40ab6c";         //sets the api key to gain access to the geolocation data
 const char* weatherKey = "59dddeca5db593f3a2157dfcaf84b934";     //sets the api key to gain access to the weather data
 
